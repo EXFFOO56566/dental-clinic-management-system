@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CDE743DF-4245-47BB-AFB8-BDB695089D2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DentalClinicManagementSystem.My.MyApplication</StartupObject>
+    <RootNamespace>DentalClinicManagementSystem</RootNamespace>
+    <AssemblyName>DentalClinicManagementSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DentalClinicManagementSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DentalClinicManagementSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>DentalCare.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Compact.4.0.8876.1\lib\net40\System.Data.SqlServerCe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administration\frmClinicInformation.Designer.vb">
+      <DependentUpon>frmClinicInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\frmClinicInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\frmListOfUsers.Designer.vb">
+      <DependentUpon>frmListOfUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\frmListOfUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\frmPermission.Designer.vb">
+      <DependentUpon>frmPermission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\frmPermission.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration\frmUserInformation.Designer.vb">
+      <DependentUpon>frmUserInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\frmUserInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet\dsDentalClinic.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDentalClinic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\frmListOfPhysician.Designer.vb">
+      <DependentUpon>frmListOfPhysician.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\frmListOfPhysician.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor\frmPhysiciansInformation.Designer.vb">
+      <DependentUpon>frmPhysiciansInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\frmPhysiciansInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAuthentication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAuthentication.Designer.vb">
+      <DependentUpon>frmAuthentication.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.vb">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIParent.Designer.vb">
+      <DependentUpon>frmMDIParent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDIParent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatabaseConnectionSetting.Designer.vb">
+      <DependentUpon>frmDatabaseConnectionSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatabaseConnectionSetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportViewer.Designer.vb">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.vb">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomeExpenditure\frmChartOfAccounts.Designer.vb">
+      <DependentUpon>frmChartOfAccounts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeExpenditure\frmChartOfAccounts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomeExpenditure\frmListOfVoucher.Designer.vb">
+      <DependentUpon>frmListOfVoucher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeExpenditure\frmListOfVoucher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomeExpenditure\frmVoucher.Designer.vb">
+      <DependentUpon>frmVoucher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeExpenditure\frmVoucher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomeExpenditure\frmVoucherReport.Designer.vb">
+      <DependentUpon>frmVoucherReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeExpenditure\frmVoucherReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\modUtilities.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Patient\frmListOfPatient.Designer.vb">
+      <DependentUpon>frmListOfPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\frmListOfPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\frmPatientInformation.Designer.vb">
+      <DependentUpon>frmPatientInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\frmPatientInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\frmInvoiceLists.Designer.vb">
+      <DependentUpon>frmInvoiceLists.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\frmInvoiceLists.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\frmPatientList.Designer.vb">
+      <DependentUpon>frmPatientList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\frmPatientList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\frmProductCategory.Designer.vb">
+      <DependentUpon>frmProductCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\frmProductCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\frmProductInformation.Designer.vb">
+      <DependentUpon>frmProductInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\frmProductInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\frmProductList.Designer.vb">
+      <DependentUpon>frmProductList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\frmProductList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\frmSales.Designer.vb">
+      <DependentUpon>frmSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\frmSales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacy\frmSalesReport.Designer.vb">
+      <DependentUpon>frmSalesReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy\frmSalesReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prescription\frmPrescription.Designer.vb">
+      <DependentUpon>frmPrescription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prescription\frmPrescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prescription\frmPrescriptionList.Designer.vb">
+      <DependentUpon>frmPrescriptionList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prescription\frmPrescriptionList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treatment\frmDentalBilling.Designer.vb">
+      <DependentUpon>frmDentalBilling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Treatment\frmDentalBilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treatment\frmDentalProcedures.Designer.vb">
+      <DependentUpon>frmDentalProcedures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Treatment\frmDentalProcedures.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treatment\frmDentalScreen.Designer.vb">
+      <DependentUpon>frmDentalScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Treatment\frmDentalScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treatment\frmDiseaseDiagnosis.Designer.vb">
+      <DependentUpon>frmDiseaseDiagnosis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Treatment\frmDiseaseDiagnosis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treatment\frmPatientVisitList.Designer.vb">
+      <DependentUpon>frmPatientVisitList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Treatment\frmPatientVisitList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treatment\frmSickLeave.Designer.vb">
+      <DependentUpon>frmSickLeave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Treatment\frmSickLeave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Treatment\frmTreatmentReport.Designer.vb">
+      <DependentUpon>frmTreatmentReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Treatment\frmTreatmentReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Administration\frmClinicInformation.resx">
+      <DependentUpon>frmClinicInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\frmListOfUsers.resx">
+      <DependentUpon>frmListOfUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\frmPermission.resx">
+      <DependentUpon>frmPermission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\frmUserInformation.resx">
+      <DependentUpon>frmUserInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\frmListOfPhysician.resx">
+      <DependentUpon>frmListOfPhysician.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\frmPhysiciansInformation.resx">
+      <DependentUpon>frmPhysiciansInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAuthentication.resx">
+      <DependentUpon>frmAuthentication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDIParent.resx">
+      <DependentUpon>frmMDIParent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatabaseConnectionSetting.resx">
+      <DependentUpon>frmDatabaseConnectionSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomeExpenditure\frmChartOfAccounts.resx">
+      <DependentUpon>frmChartOfAccounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomeExpenditure\frmListOfVoucher.resx">
+      <DependentUpon>frmListOfVoucher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomeExpenditure\frmVoucher.resx">
+      <DependentUpon>frmVoucher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomeExpenditure\frmVoucherReport.resx">
+      <DependentUpon>frmVoucherReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\frmListOfPatient.resx">
+      <DependentUpon>frmListOfPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\frmPatientInformation.resx">
+      <DependentUpon>frmPatientInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\frmInvoiceLists.resx">
+      <DependentUpon>frmInvoiceLists.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\frmPatientList.resx">
+      <DependentUpon>frmPatientList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\frmProductCategory.resx">
+      <DependentUpon>frmProductCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\frmProductInformation.resx">
+      <DependentUpon>frmProductInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\frmProductList.resx">
+      <DependentUpon>frmProductList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\frmSales.resx">
+      <DependentUpon>frmSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacy\frmSalesReport.resx">
+      <DependentUpon>frmSalesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prescription\frmPrescription.resx">
+      <DependentUpon>frmPrescription.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prescription\frmPrescriptionList.resx">
+      <DependentUpon>frmPrescriptionList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PatientForm.rdlc" />
+    <EmbeddedResource Include="Reports\TreatmentBillList.rdlc" />
+    <EmbeddedResource Include="Reports\SickLeave.rdlc" />
+    <EmbeddedResource Include="Reports\TreatmentBill.rdlc" />
+    <EmbeddedResource Include="Reports\SalesList.rdlc" />
+    <EmbeddedResource Include="Reports\Invoice.rdlc" />
+    <EmbeddedResource Include="Reports\Prescription.rdlc" />
+    <EmbeddedResource Include="Reports\Voucher.rdlc" />
+    <EmbeddedResource Include="Reports\VoucherList.rdlc" />
+    <EmbeddedResource Include="Treatment\frmDentalBilling.resx">
+      <DependentUpon>frmDentalBilling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Treatment\frmDentalProcedures.resx">
+      <DependentUpon>frmDentalProcedures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Treatment\frmDentalScreen.resx">
+      <DependentUpon>frmDentalScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Treatment\frmDiseaseDiagnosis.resx">
+      <DependentUpon>frmDiseaseDiagnosis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Treatment\frmPatientVisitList.resx">
+      <DependentUpon>frmPatientVisitList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Treatment\frmSickLeave.resx">
+      <DependentUpon>frmSickLeave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Treatment\frmTreatmentReport.resx">
+      <DependentUpon>frmTreatmentReport.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSet\dsDentalClinic.xsc">
+      <DependentUpon>dsDentalClinic.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsDentalClinic.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDentalClinic.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsDentalClinic.xss">
+      <DependentUpon>dsDentalClinic.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\00200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9636223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\molar-inside-a-shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentist_sm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor_sm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pill_sm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inject_sm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profit_sm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-with-cogwheels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prescription.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\periodontal-desease.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infor_head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listview_head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erase1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email_head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-account-button-with-user-inside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_nulled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dot-line-map-background-banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drugs-capsules-and-pills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor_headers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DentalCare.ico" />
+    <None Include="Resources\Help.png" />
+    <None Include="Resources\sm_head_invoice.png" />
+    <None Include="Resources\head_tax_ssm.png" />
+    <None Include="Resources\Accounting.png" />
+    <None Include="Resources\Print.png" />
+    <None Include="Resources\Clock.png" />
+    <None Include="Resources\Next.png" />
+    <None Include="Resources\No.png" />
+    <None Include="Resources\Primary_Incisors_17.png" />
+    <None Include="Resources\Primary_Incisors_16.png" />
+    <None Include="Resources\Primary_Incisors_15.png" />
+    <None Include="Resources\Primary_Incisors_14.png" />
+    <None Include="Resources\Primary_Incisors_7.png" />
+    <None Include="Resources\Primary_Incisors_6.png" />
+    <None Include="Resources\Primary_Incisors_5.png" />
+    <None Include="Resources\Primary_Incisors_4.png" />
+    <None Include="Resources\Primary_Cuspid_18.png" />
+    <None Include="Resources\Primary_Cuspid_3.png" />
+    <None Include="Resources\Primary_Cuspid_13.png" />
+    <None Include="Resources\Primary_Cuspid_8.png" />
+    <None Include="Resources\Primary_molars_12.png" />
+    <None Include="Resources\Primary_molars_11.png" />
+    <None Include="Resources\Primary_molars_10.png" />
+    <None Include="Resources\Primary_molars_9.png" />
+    <None Include="Resources\Primary_molars_20.png" />
+    <None Include="Resources\Primary_molars_19.png" />
+    <None Include="Resources\Primary_molars_2.png" />
+    <None Include="Resources\Primary_molars_1.png" />
+    <None Include="Resources\Permanent_molars_19.png" />
+    <None Include="Resources\Permanent_molars_18.png" />
+    <None Include="Resources\Permanent_molars_17.png" />
+    <None Include="Resources\Permanent_molars_16.png" />
+    <None Include="Resources\Permanent_molars_15.png" />
+    <None Include="Resources\Permanent_molars_14.png" />
+    <None Include="Resources\Permanent_Premolars_21.png" />
+    <None Include="Resources\Permanent_Premolars_20.png" />
+    <None Include="Resources\Permanent_Premolars_13.png" />
+    <None Include="Resources\Permanent_Premolars_12.png" />
+    <None Include="Resources\Permanent_Cuspid_22.png" />
+    <None Include="Resources\Permanent_Cuspid_11.png" />
+    <None Include="Resources\Permanent_Incisors_26.png" />
+    <None Include="Resources\Permanent_Incisors_25.png" />
+    <None Include="Resources\Permanent_Incisors_24.png" />
+    <None Include="Resources\Permanent_Incisors_23.png" />
+    <None Include="Resources\Permanent_Incisors_10.png" />
+    <None Include="Resources\Permanent_Incisors_9.png" />
+    <None Include="Resources\Permanent_Incisors_8.png" />
+    <None Include="Resources\Permanent_Incisors_7.png" />
+    <None Include="Resources\Permanent_Cuspid_27.png" />
+    <None Include="Resources\Permanent_Cuspid_6.png" />
+    <None Include="Resources\Permanent_Premolars_28.png" />
+    <None Include="Resources\Permanent_Premolars_29.png" />
+    <None Include="Resources\Permanent_Premolars_5.png" />
+    <None Include="Resources\Permanent_Premolars_4.png" />
+    <None Include="Resources\Permanent_molars_30.png" />
+    <None Include="Resources\Permanent_molars_31.png" />
+    <None Include="Resources\Permanent_molars_32.png" />
+    <None Include="Resources\Permanent_molars_3.png" />
+    <None Include="Resources\Permanent_molars_2.png" />
+    <None Include="Resources\Permanent_molars_1.png" />
+    <None Include="Resources\clean-tooth.png" />
+    <None Include="Resources\tooth_head_smm.png" />
+    <None Include="Resources\Yes.png" />
+    <None Include="Resources\Lightning.png" />
+    <None Include="Resources\New.png" />
+    <None Include="Resources\Create.png" />
+    <None Include="Resources\Table.png" />
+    <None Include="Resources\Find1.png" />
+    <None Include="Resources\money-bag.png" />
+    <None Include="Resources\accounting_head.png" />
+    <None Include="Resources\main_splash.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    if not exist "$(TargetDir)x86" md "$(TargetDir)x86"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\x86\*.*" "$(TargetDir)x86"
+    if not exist "$(TargetDir)amd64" md "$(TargetDir)amd64"
+    xcopy /s /y "$(SolutionDir)packages\Microsoft.SqlServer.Compact.4.0.8876.1\NativeBinaries\amd64\*.*" "$(TargetDir)amd64"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

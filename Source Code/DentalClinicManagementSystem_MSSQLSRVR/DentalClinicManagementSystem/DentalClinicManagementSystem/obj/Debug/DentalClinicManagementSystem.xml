@@ -1,0 +1,646 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DentalClinicManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:DentalClinicManagementSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources._00200">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources._9636223">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources._Erase">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources._Exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources._New">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources._Next">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Accounting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.accounting_head">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.admin_with_cogwheels">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.clean_tooth">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Clock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Create">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.database_head">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.dentist">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.dentist_sm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.doctor_headers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.doctor_sm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.dot_line_map_background_banner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.drugs_capsules_and_pills">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.email_head">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Erase1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Find1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.head_tax_ssm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.infor_head">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.inject_sm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Lightning">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.listview_head">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.main_splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Modify">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.molar_inside_a_shield">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.money_bag">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.No">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.no_images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.periodontal_desease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Cuspid_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Cuspid_22">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Cuspid_27">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Cuspid_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Incisors_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Incisors_23">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Incisors_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Incisors_25">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Incisors_26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Incisors_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Incisors_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Incisors_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_molars_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Premolars_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Premolars_13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Premolars_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Premolars_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Premolars_28">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Premolars_29">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Premolars_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Permanent_Premolars_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.pill_sm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.prescription">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Cuspid_13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Cuspid_18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Cuspid_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Cuspid_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Incisors_14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Incisors_15">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Incisors_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Incisors_17">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Incisors_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Incisors_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Incisors_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_Incisors_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_molars_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_molars_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_molars_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_molars_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_molars_19">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_molars_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_molars_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Primary_molars_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.profit_sm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Redo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.round_account_button_with_user_inside">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.sm_head_invoice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.splash_images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Table">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.tooth_head_smm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.User_nulled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DentalClinicManagementSystem.My.Resources.Resources.Yes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PrescriptionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.VoucherDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PharmacyBillingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TreatmentProcedureBillDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PatientFormDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TrtmntSickLeaveDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TreatmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PrescriptionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.VoucherRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PharmacyBillingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TreatmentProcedureBillRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PatientFormRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TrtmntSickLeaveRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TreatmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PrescriptionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.VoucherRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PharmacyBillingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TreatmentProcedureBillRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.PatientFormRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TrtmntSickLeaveRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DentalClinicManagementSystem.dsDentalClinic.TreatmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>
